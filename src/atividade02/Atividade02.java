@@ -30,7 +30,7 @@ public class Atividade02 {
 
         Double salary;
 
-         do {
+        do {
             System.out.println("Digite o sálario do usuário: ");
             salary = Double.parseDouble(sc.nextLine());
             if ( salary > 1997.5 && salary <= 5399.99){
@@ -48,7 +48,6 @@ public class Atividade02 {
                 break;
             } else{ System.out.println("Erro, o sálario digitado tem que ser maior do que 0 !!!");};
         }while (isValida);
-     
     }
     
 }
