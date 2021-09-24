@@ -22,7 +22,7 @@ public class Atividade01 {
             System.out.println("A idade " + age + " é maior que 25!");
     
         } else if ( age == 25){
-            System.out.println("Idade digitada é igua á 25!");
+            System.out.println("Idade digitada é igual á 25!");
     
         }else{ 
             System.out.printf("Idade %d é menor que 25!!!\n", age);
